@@ -1,0 +1,372 @@
+2026-11-24 10:36:18 === DYNAMIC BENCHMARK START (v7.0 - HARDENED) ===
+2026-11-24 10:36:18 Resume Mode: OFF (fresh start)
+2026-11-24 10:36:18 [INFO] Loaded dynamic question from todays_q.txt (JSON -> question field)
+2026-11-24 10:36:18 [INFO] Using default system prompt.
+2026-11-24 10:36:18 ------------------------------------------------------------
+2026-11-24 10:36:18 QUESTION PREVIEW: Analyze the structural mechanics, monetary physics, and debt-service constraints of modern central b...
+2026-11-24 10:36:18 ------------------------------------------------------------
+2026-11-24 10:36:18 Fetching model list from Ollama...
+2026-11-24 10:36:18 Models (8): dolphin3:latest, huihui_ai/qwen3-abliterated:8b, jaahas/gemma-2-9b-it-abliterated:latest, llama3.2:3b, mistral-nemo:12b, phi4:latest, qwen2.5-coder:14b, qwen2.5-coder:7b
+2026-11-24 10:36:18 Total cases: 168
+2026-11-24 10:36:18 ------------------------------------------------------------
+2026-11-24 10:36:18 Starting fresh benchmark run (overwriting existing results).
+2026-11-24 10:36:18 
+>>> GENERATOR: dolphin3:latest
+2026-11-24 10:39:10 [Case 1/168] GEN: dolphin3:latest | VAL: huihui_ai/qwen3-abliterated:8b | LENS: conciseness -> PASS | Score: 95 (Loops: 2, 172.64s)
+2026-11-24 10:39:10   [ETA: 07:58:44 | Elapsed: 00:02:52]
+2026-11-24 10:41:07 [Case 2/168] GEN: dolphin3:latest | VAL: huihui_ai/qwen3-abliterated:8b | LENS: technical -> PASS | Score: 85 (Loops: 1, 114.36s)
+2026-11-24 10:41:07   [ETA: 06:39:47 | Elapsed: 00:04:49]
+2026-11-24 10:43:13 [Case 3/168] GEN: dolphin3:latest | VAL: huihui_ai/qwen3-abliterated:8b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 123.42s)
+2026-11-24 10:43:13   [ETA: 06:20:25 | Elapsed: 00:06:55]
+2026-11-24 10:45:09 [Case 4/168] GEN: dolphin3:latest | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: conciseness -> PASS | Score: 85 (Loops: 2, 114.07s)
+2026-11-24 10:45:09   [ETA: 06:02:51 | Elapsed: 00:08:51]
+2026-11-24 10:46:53 [Case 5/168] GEN: dolphin3:latest | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 101.43s)
+2026-11-24 10:46:53   [ETA: 05:45:01 | Elapsed: 00:10:35]
+2026-11-24 10:48:28 [Case 6/168] GEN: dolphin3:latest | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 92.94s)
+2026-11-24 10:48:28   [ETA: 05:28:30 | Elapsed: 00:12:10]
+2026-11-24 10:49:23 [Case 7/168] GEN: dolphin3:latest | VAL: llama3.2:3b | LENS: conciseness -> PASS | Score: 80 (Loops: 1, 52.05s)
+2026-11-24 10:49:23   [ETA: 05:00:55 | Elapsed: 00:13:05]
+2026-11-24 10:50:15 [Case 8/168] GEN: dolphin3:latest | VAL: llama3.2:3b | LENS: technical -> PASS | Score: 92 (Loops: 1, 50.27s)
+2026-11-24 10:50:15   [ETA: 04:39:00 | Elapsed: 00:13:57]
+2026-11-24 10:51:08 [Case 9/168] GEN: dolphin3:latest | VAL: llama3.2:3b | LENS: objectivity -> PASS | Score: 92 (Loops: 1, 50.52s)
+2026-11-24 10:51:08   [ETA: 04:22:03 | Elapsed: 00:14:50]
+2026-11-24 10:52:14 [Case 10/168] GEN: dolphin3:latest | VAL: mistral-nemo:12b | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 63.98s)
+2026-11-24 10:52:14   [ETA: 04:11:44 | Elapsed: 00:15:56]
+2026-11-24 10:54:23 [Case 11/168] GEN: dolphin3:latest | VAL: mistral-nemo:12b | LENS: technical -> PASS | Score: 85 (Loops: 1, 127.19s)
+2026-11-24 10:54:23   [ETA: 04:18:05 | Elapsed: 00:18:05]
+2026-11-24 10:55:43 [Case 12/168] GEN: dolphin3:latest | VAL: mistral-nemo:12b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 77.38s)
+2026-11-24 10:55:43   [ETA: 04:12:25 | Elapsed: 00:19:25]
+2026-11-24 10:57:16 [Case 13/168] GEN: dolphin3:latest | VAL: phi4:latest | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 89.94s)
+2026-11-24 10:57:16   [ETA: 04:09:59 | Elapsed: 00:20:58]
+2026-11-24 10:59:19 [Case 14/168] GEN: dolphin3:latest | VAL: phi4:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 120.93s)
+2026-11-24 10:59:19   [ETA: 04:13:11 | Elapsed: 00:23:01]
+2026-11-24 11:01:54 [Case 15/168] GEN: dolphin3:latest | VAL: phi4:latest | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 152.19s)
+2026-11-24 11:01:54   [ETA: 04:21:07 | Elapsed: 00:25:36]
+2026-11-24 11:03:51 [Case 16/168] GEN: dolphin3:latest | VAL: qwen2.5-coder:14b | LENS: conciseness -> PASS | Score: 85 (Loops: 2, 114.88s)
+2026-11-24 11:03:51   [ETA: 04:21:43 | Elapsed: 00:27:33]
+2026-11-24 11:05:24 [Case 17/168] GEN: dolphin3:latest | VAL: qwen2.5-coder:14b | LENS: technical -> PASS | Score: 85 (Loops: 1, 90.1s)
+2026-11-24 11:05:24   [ETA: 04:18:28 | Elapsed: 00:29:06]
+2026-11-24 11:07:01 [Case 18/168] GEN: dolphin3:latest | VAL: qwen2.5-coder:14b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 94.75s)
+2026-11-24 11:07:01   [ETA: 04:15:58 | Elapsed: 00:30:43]
+2026-11-24 11:07:59 [Case 19/168] GEN: dolphin3:latest | VAL: qwen2.5-coder:7b | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 55.51s)
+2026-11-24 11:07:59   [ETA: 04:08:27 | Elapsed: 00:31:41]
+2026-11-24 11:09:01 [Case 20/168] GEN: dolphin3:latest | VAL: qwen2.5-coder:7b | LENS: technical -> PASS | Score: 85 (Loops: 1, 59.78s)
+2026-11-24 11:09:01   [ETA: 04:02:06 | Elapsed: 00:32:43]
+2026-11-24 11:10:02 [Case 21/168] GEN: dolphin3:latest | VAL: qwen2.5-coder:7b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 58.38s)
+2026-11-24 11:10:02   [ETA: 03:56:08 | Elapsed: 00:33:44]
+2026-11-24 11:10:04 
+>>> GENERATOR: huihui_ai/qwen3-abliterated:8b
+2026-11-24 11:12:34 [Case 22/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: dolphin3:latest | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 149.82s)
+2026-11-24 11:12:34   [ETA: 04:00:40 | Elapsed: 00:36:16]
+2026-11-24 11:15:16 [Case 23/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: dolphin3:latest | LENS: technical -> PASS | Score: 95 (Loops: 1, 159.41s)
+2026-11-24 11:15:16   [ETA: 04:05:39 | Elapsed: 00:38:58]
+2026-11-24 11:17:57 [Case 24/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: dolphin3:latest | LENS: objectivity -> PASS | Score: 100 (Loops: 1, 158.98s)
+2026-11-24 11:17:57   [ETA: 04:09:54 | Elapsed: 00:41:39]
+2026-11-24 11:20:42 [Case 25/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: conciseness -> PASS | Score: 95 (Loops: 1, 162.89s)
+2026-11-24 11:20:42   [ETA: 04:13:58 | Elapsed: 00:44:24]
+2026-11-24 11:23:48 [Case 26/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: technical -> PASS | Score: 95 (Loops: 1, 183.19s)
+2026-11-24 11:23:48   [ETA: 04:19:25 | Elapsed: 00:47:30]
+2026-11-24 11:26:50 [Case 27/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: objectivity -> PASS | Score: 95 (Loops: 1, 180.3s)
+2026-11-24 11:26:50   [ETA: 04:23:53 | Elapsed: 00:50:32]
+2026-11-24 11:29:17 [Case 28/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: llama3.2:3b | LENS: conciseness -> PASS | Score: 92 (Loops: 1, 144.66s)
+2026-11-24 11:29:17   [ETA: 04:24:55 | Elapsed: 00:52:59]
+2026-11-24 11:31:51 [Case 29/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: llama3.2:3b | LENS: technical -> PASS | Score: 92 (Loops: 1, 151.33s)
+2026-11-24 11:31:51   [ETA: 04:26:15 | Elapsed: 00:55:33]
+2026-11-24 11:34:16 [Case 30/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: llama3.2:3b | LENS: objectivity -> PASS | Score: 92 (Loops: 1, 143.44s)
+2026-11-24 11:34:16   [ETA: 04:26:38 | Elapsed: 00:57:58]
+2026-11-24 11:36:54 [Case 31/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: mistral-nemo:12b | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 155.59s)
+2026-11-24 11:36:54   [ETA: 04:27:48 | Elapsed: 01:00:36]
+2026-11-24 11:40:20 [Case 32/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: mistral-nemo:12b | LENS: technical -> PASS | Score: 85 (Loops: 1, 203.51s)
+2026-11-24 11:40:20   [ETA: 04:32:08 | Elapsed: 01:04:02]
+2026-11-24 11:43:40 [Case 33/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: mistral-nemo:12b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 197.95s)
+2026-11-24 11:43:40   [ETA: 04:35:35 | Elapsed: 01:07:22]
+2026-11-24 11:49:09 [Case 34/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: phi4:latest | LENS: conciseness -> PASS | Score: 95 (Loops: 1, 325.73s)
+2026-11-24 11:49:09   [ETA: 04:47:06 | Elapsed: 01:12:51]
+2026-11-24 11:53:28 [Case 35/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: phi4:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 256.71s)
+2026-11-24 11:53:28   [ETA: 04:53:14 | Elapsed: 01:17:10]
+2026-11-24 11:57:06 [Case 36/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: phi4:latest | LENS: objectivity -> PASS | Score: 95 (Loops: 1, 215.18s)
+2026-11-24 11:57:06   [ETA: 04:56:16 | Elapsed: 01:20:48]
+2026-11-24 11:59:52 [Case 37/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: qwen2.5-coder:14b | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 164.18s)
+2026-11-24 11:59:52   [ETA: 04:55:52 | Elapsed: 01:23:34]
+2026-11-24 12:03:01 [Case 38/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: qwen2.5-coder:14b | LENS: technical -> PASS | Score: 85 (Loops: 1, 186.23s)
+2026-11-24 12:03:01   [ETA: 04:56:39 | Elapsed: 01:26:43]
+2026-11-24 12:06:13 [Case 39/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: qwen2.5-coder:14b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 189.33s)
+2026-11-24 12:06:13   [ETA: 04:57:25 | Elapsed: 01:29:55]
+2026-11-24 12:08:44 [Case 40/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: qwen2.5-coder:7b | LENS: conciseness -> PASS | Score: 95 (Loops: 1, 148.27s)
+2026-11-24 12:08:44   [ETA: 04:55:47 | Elapsed: 01:32:26]
+2026-11-24 12:11:25 [Case 41/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: qwen2.5-coder:7b | LENS: technical -> PASS | Score: 95 (Loops: 1, 158.94s)
+2026-11-24 12:11:25   [ETA: 04:54:37 | Elapsed: 01:35:07]
+2026-11-24 12:14:01 [Case 42/168] GEN: huihui_ai/qwen3-abliterated:8b | VAL: qwen2.5-coder:7b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 154.13s)
+2026-11-24 12:14:01   [ETA: 04:53:09 | Elapsed: 01:37:43]
+2026-11-24 12:14:04 
+>>> GENERATOR: jaahas/gemma-2-9b-it-abliterated:latest
+2026-11-24 12:16:02 [Case 43/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: dolphin3:latest | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 118.89s)
+2026-11-24 12:16:02   [ETA: 04:49:55 | Elapsed: 01:39:44]
+2026-11-24 12:18:11 [Case 44/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: dolphin3:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 126.52s)
+2026-11-24 12:18:11   [ETA: 04:47:07 | Elapsed: 01:41:53]
+2026-11-24 12:20:30 [Case 45/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: dolphin3:latest | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 136.14s)
+2026-11-24 12:20:30   [ETA: 04:44:48 | Elapsed: 01:44:12]
+2026-11-24 12:23:07 [Case 46/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: huihui_ai/qwen3-abliterated:8b | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 155.34s)
+2026-11-24 12:23:07   [ETA: 04:43:17 | Elapsed: 01:46:49]
+2026-11-24 12:25:48 [Case 47/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: huihui_ai/qwen3-abliterated:8b | LENS: technical -> PASS | Score: 85 (Loops: 1, 158.98s)
+2026-11-24 12:25:48   [ETA: 04:41:54 | Elapsed: 01:49:30]
+2026-11-24 12:28:24 [Case 48/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: huihui_ai/qwen3-abliterated:8b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 152.9s)
+2026-11-24 12:28:24   [ETA: 04:40:15 | Elapsed: 01:52:06]
+2026-11-24 12:30:16 [Case 49/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: llama3.2:3b | LENS: conciseness -> PASS | Score: 80 (Loops: 1, 109.74s)
+2026-11-24 12:30:16   [ETA: 04:36:46 | Elapsed: 01:53:58]
+2026-11-24 12:32:08 [Case 50/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: llama3.2:3b | LENS: technical -> PASS | Score: 82 (Loops: 1, 110.5s)
+2026-11-24 12:32:08   [ETA: 04:33:22 | Elapsed: 01:55:50]
+2026-11-24 12:34:01 [Case 51/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: llama3.2:3b | LENS: objectivity -> PASS | Score: 92 (Loops: 1, 110.6s)
+2026-11-24 12:34:01   [ETA: 04:30:03 | Elapsed: 01:57:43]
+2026-11-24 12:36:07 [Case 52/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: mistral-nemo:12b | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 124.49s)
+2026-11-24 12:36:07   [ETA: 04:27:17 | Elapsed: 01:59:49]
+2026-11-24 12:38:29 [Case 53/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: mistral-nemo:12b | LENS: technical -> PASS | Score: 85 (Loops: 1, 139.11s)
+2026-11-24 12:38:29   [ETA: 04:25:06 | Elapsed: 02:02:11]
+2026-11-24 12:41:26 [Case 54/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: mistral-nemo:12b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 174.97s)
+2026-11-24 12:41:26   [ETA: 04:24:10 | Elapsed: 02:05:08]
+2026-11-24 12:44:37 [Case 55/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: phi4:latest | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 188.46s)
+2026-11-24 12:44:37   [ETA: 04:23:37 | Elapsed: 02:08:19]
+2026-11-24 12:49:08 [Case 56/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: phi4:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 268.79s)
+2026-11-24 12:49:08   [ETA: 04:25:40 | Elapsed: 02:12:50]
+2026-11-24 12:53:54 [Case 57/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: phi4:latest | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 282.87s)
+2026-11-24 12:53:54   [ETA: 04:27:57 | Elapsed: 02:17:36]
+2026-11-24 12:56:01 [Case 58/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: qwen2.5-coder:14b | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 124.71s)
+2026-11-24 12:56:01   [ETA: 04:24:58 | Elapsed: 02:19:43]
+2026-11-24 12:58:27 [Case 59/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: qwen2.5-coder:14b | LENS: technical -> PASS | Score: 85 (Loops: 1, 143.52s)
+2026-11-24 12:58:27   [ETA: 04:22:36 | Elapsed: 02:22:09]
+2026-11-24 13:00:47 [Case 60/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: qwen2.5-coder:14b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 137.09s)
+2026-11-24 13:00:47   [ETA: 04:20:04 | Elapsed: 02:24:29]
+2026-11-24 13:02:42 [Case 61/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: qwen2.5-coder:7b | LENS: conciseness -> PASS | Score: 95 (Loops: 1, 112.95s)
+2026-11-24 13:02:42   [ETA: 04:16:48 | Elapsed: 02:26:24]
+2026-11-24 13:04:41 [Case 62/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: qwen2.5-coder:7b | LENS: technical -> PASS | Score: 85 (Loops: 1, 116.77s)
+2026-11-24 13:04:41   [ETA: 04:13:41 | Elapsed: 02:28:23]
+2026-11-24 13:06:38 [Case 63/168] GEN: jaahas/gemma-2-9b-it-abliterated:latest | VAL: qwen2.5-coder:7b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 114.61s)
+2026-11-24 13:06:38   [ETA: 04:10:33 | Elapsed: 02:30:20]
+2026-11-24 13:06:40 
+>>> GENERATOR: llama3.2:3b
+2026-11-24 13:07:07 [Case 64/168] GEN: llama3.2:3b | VAL: dolphin3:latest | LENS: conciseness -> PASS | Score: 75 (Loops: 1, 26.8s)
+2026-11-24 13:07:07   [ETA: 04:05:04 | Elapsed: 02:30:49]
+2026-11-24 13:07:43 [Case 65/168] GEN: llama3.2:3b | VAL: dolphin3:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 33.8s)
+2026-11-24 13:07:43   [ETA: 03:59:56 | Elapsed: 02:31:25]
+2026-11-24 13:08:11 [Case 66/168] GEN: llama3.2:3b | VAL: dolphin3:latest | LENS: objectivity -> PASS | Score: 100 (Loops: 1, 26.19s)
+2026-11-24 13:08:11   [ETA: 03:54:43 | Elapsed: 02:31:53]
+2026-11-24 13:09:03 [Case 67/168] GEN: llama3.2:3b | VAL: huihui_ai/qwen3-abliterated:8b | LENS: conciseness -> PASS | Score: 90 (Loops: 1, 49.94s)
+2026-11-24 13:09:03   [ETA: 03:50:15 | Elapsed: 02:32:45]
+2026-11-24 13:11:49 [Case 68/168] GEN: llama3.2:3b | VAL: huihui_ai/qwen3-abliterated:8b | LENS: technical -> PASS | Score: 85 (Loops: 2, 163.71s)
+2026-11-24 13:11:49   [ETA: 03:48:42 | Elapsed: 02:35:31]
+2026-11-24 13:13:10 [Case 69/168] GEN: llama3.2:3b | VAL: huihui_ai/qwen3-abliterated:8b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 78.26s)
+2026-11-24 13:13:10   [ETA: 03:45:04 | Elapsed: 02:36:52]
+2026-11-24 13:14:11 [Case 70/168] GEN: llama3.2:3b | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: conciseness -> PASS | Score: 90 (Loops: 2, 58.92s)
+2026-11-24 13:14:11   [ETA: 03:41:02 | Elapsed: 02:37:53]
+2026-11-24 13:15:22 [Case 71/168] GEN: llama3.2:3b | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: technical -> PASS | Score: 82 (Loops: 1, 69.16s)
+2026-11-24 13:15:22   [ETA: 03:37:18 | Elapsed: 02:39:04]
+2026-11-24 13:16:32 [Case 72/168] GEN: llama3.2:3b | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 67.63s)
+2026-11-24 13:16:32   [ETA: 03:33:38 | Elapsed: 02:40:14]
+2026-11-24 13:18:19 [Case 73/168] GEN: llama3.2:3b | VAL: mistral-nemo:12b | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 104.09s)
+2026-11-24 13:18:19   [ETA: 03:30:50 | Elapsed: 02:42:01]
+2026-11-24 13:19:31 [Case 74/168] GEN: llama3.2:3b | VAL: mistral-nemo:12b | LENS: technical -> PASS | Score: 85 (Loops: 1, 69.51s)
+2026-11-24 13:19:31   [ETA: 03:27:19 | Elapsed: 02:43:13]
+2026-11-24 13:21:09 [Case 75/168] GEN: llama3.2:3b | VAL: mistral-nemo:12b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 95.36s)
+2026-11-24 13:21:09   [ETA: 03:24:24 | Elapsed: 02:44:51]
+2026-11-24 13:23:28 [Case 76/168] GEN: llama3.2:3b | VAL: phi4:latest | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 137.21s)
+2026-11-24 13:23:28   [ETA: 03:22:21 | Elapsed: 02:47:10]
+2026-11-24 13:24:52 [Case 77/168] GEN: llama3.2:3b | VAL: phi4:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 81.17s)
+2026-11-24 13:24:52   [ETA: 03:19:12 | Elapsed: 02:48:34]
+2026-11-24 13:28:31 [Case 78/168] GEN: llama3.2:3b | VAL: phi4:latest | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 216.66s)
+2026-11-24 13:28:31   [ETA: 03:18:42 | Elapsed: 02:52:13]
+2026-11-24 13:29:46 [Case 79/168] GEN: llama3.2:3b | VAL: qwen2.5-coder:14b | LENS: conciseness -> PASS | Score: 85 (Loops: 2, 72.41s)
+2026-11-24 13:29:46   [ETA: 03:15:25 | Elapsed: 02:53:28]
+2026-11-24 13:30:42 [Case 80/168] GEN: llama3.2:3b | VAL: qwen2.5-coder:14b | LENS: technical -> PASS | Score: 85 (Loops: 1, 53.54s)
+2026-11-24 13:30:42   [ETA: 03:11:50 | Elapsed: 02:54:24]
+2026-11-24 13:31:41 [Case 81/168] GEN: llama3.2:3b | VAL: qwen2.5-coder:14b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 56.33s)
+2026-11-24 13:31:41   [ETA: 03:08:22 | Elapsed: 02:55:23]
+2026-11-24 13:32:07 [Case 82/168] GEN: llama3.2:3b | VAL: qwen2.5-coder:7b | LENS: conciseness -> PASS | Score: 90 (Loops: 1, 22.97s)
+2026-11-24 13:32:07   [ETA: 03:04:23 | Elapsed: 02:55:49]
+2026-11-24 13:32:32 [Case 83/168] GEN: llama3.2:3b | VAL: qwen2.5-coder:7b | LENS: technical -> PASS | Score: 85 (Loops: 1, 22.91s)
+2026-11-24 13:32:32   [ETA: 03:00:28 | Elapsed: 02:56:14]
+2026-11-24 13:32:57 [Case 84/168] GEN: llama3.2:3b | VAL: qwen2.5-coder:7b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 23.22s)
+2026-11-24 13:32:57   [ETA: 02:56:39 | Elapsed: 02:56:39]
+2026-11-24 13:32:59 
+>>> GENERATOR: mistral-nemo:12b
+2026-11-24 13:35:18 [Case 85/168] GEN: mistral-nemo:12b | VAL: dolphin3:latest | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 139.03s)
+2026-11-24 13:35:18   [ETA: 02:54:47 | Elapsed: 02:59:00]
+2026-11-24 13:37:41 [Case 86/168] GEN: mistral-nemo:12b | VAL: dolphin3:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 140.23s)
+2026-11-24 13:37:41   [ETA: 02:52:56 | Elapsed: 03:01:23]
+2026-11-24 13:40:10 [Case 87/168] GEN: mistral-nemo:12b | VAL: dolphin3:latest | LENS: objectivity -> PASS | Score: 90 (Loops: 1, 147.06s)
+2026-11-24 13:40:10   [ETA: 02:51:11 | Elapsed: 03:03:52]
+2026-11-24 13:43:55 [Case 88/168] GEN: mistral-nemo:12b | VAL: huihui_ai/qwen3-abliterated:8b | LENS: conciseness -> PASS | Score: 75 (Loops: 1, 222.26s)
+2026-11-24 13:43:55   [ETA: 02:50:33 | Elapsed: 03:07:37]
+2026-11-24 13:47:18 [Case 89/168] GEN: mistral-nemo:12b | VAL: huihui_ai/qwen3-abliterated:8b | LENS: technical -> PASS | Score: 90 (Loops: 1, 201.07s)
+2026-11-24 13:47:18   [ETA: 02:49:32 | Elapsed: 03:11:00]
+2026-11-24 13:50:18 [Case 90/168] GEN: mistral-nemo:12b | VAL: huihui_ai/qwen3-abliterated:8b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 178.33s)
+2026-11-24 13:50:18   [ETA: 02:48:08 | Elapsed: 03:14:00]
+2026-11-24 13:53:50 [Case 91/168] GEN: mistral-nemo:12b | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: conciseness -> PASS | Score: 85 (Loops: 2, 209.28s)
+2026-11-24 13:53:50   [ETA: 02:47:08 | Elapsed: 03:17:32]
+2026-11-24 13:56:49 [Case 92/168] GEN: mistral-nemo:12b | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 176.64s)
+2026-11-24 13:56:49   [ETA: 02:45:38 | Elapsed: 03:20:31]
+2026-11-24 13:59:43 [Case 93/168] GEN: mistral-nemo:12b | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 171.35s)
+2026-11-24 13:59:43   [ETA: 02:44:02 | Elapsed: 03:23:25]
+2026-11-24 14:01:59 [Case 94/168] GEN: mistral-nemo:12b | VAL: llama3.2:3b | LENS: conciseness -> PASS | Score: 80 (Loops: 1, 133.44s)
+2026-11-24 14:01:59   [ETA: 02:41:55 | Elapsed: 03:25:41]
+2026-11-24 14:04:16 [Case 95/168] GEN: mistral-nemo:12b | VAL: llama3.2:3b | LENS: technical -> PASS | Score: 92 (Loops: 1, 135.37s)
+2026-11-24 14:04:16   [ETA: 02:39:48 | Elapsed: 03:27:58]
+2026-11-24 14:06:34 [Case 96/168] GEN: mistral-nemo:12b | VAL: llama3.2:3b | LENS: objectivity -> PASS | Score: 92 (Loops: 1, 135.55s)
+2026-11-24 14:06:34   [ETA: 02:37:42 | Elapsed: 03:30:16]
+2026-11-24 14:10:28 [Case 97/168] GEN: mistral-nemo:12b | VAL: phi4:latest | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 231.83s)
+2026-11-24 14:10:28   [ETA: 02:36:45 | Elapsed: 03:34:10]
+2026-11-24 14:13:56 [Case 98/168] GEN: mistral-nemo:12b | VAL: phi4:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 206.18s)
+2026-11-24 14:13:56   [ETA: 02:35:27 | Elapsed: 03:37:38]
+2026-11-24 14:17:18 [Case 99/168] GEN: mistral-nemo:12b | VAL: phi4:latest | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 198.81s)
+2026-11-24 14:17:18   [ETA: 02:34:01 | Elapsed: 03:41:00]
+2026-11-24 14:19:48 [Case 100/168] GEN: mistral-nemo:12b | VAL: qwen2.5-coder:14b | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 147.56s)
+2026-11-24 14:19:48   [ETA: 02:31:58 | Elapsed: 03:43:30]
+2026-11-24 14:22:33 [Case 101/168] GEN: mistral-nemo:12b | VAL: qwen2.5-coder:14b | LENS: technical -> PASS | Score: 85 (Loops: 1, 162.39s)
+2026-11-24 14:22:33   [ETA: 02:30:05 | Elapsed: 03:46:15]
+2026-11-24 14:25:22 [Case 102/168] GEN: mistral-nemo:12b | VAL: qwen2.5-coder:14b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 167.02s)
+2026-11-24 14:25:22   [ETA: 02:28:13 | Elapsed: 03:49:04]
+2026-11-24 14:27:40 [Case 103/168] GEN: mistral-nemo:12b | VAL: qwen2.5-coder:7b | LENS: conciseness -> PASS | Score: 95 (Loops: 1, 135.44s)
+2026-11-24 14:27:40   [ETA: 02:26:00 | Elapsed: 03:51:22]
+2026-11-24 14:29:59 [Case 104/168] GEN: mistral-nemo:12b | VAL: qwen2.5-coder:7b | LENS: technical -> PASS | Score: 95 (Loops: 1, 136.74s)
+2026-11-24 14:29:59   [ETA: 02:23:48 | Elapsed: 03:53:41]
+2026-11-24 14:32:20 [Case 105/168] GEN: mistral-nemo:12b | VAL: qwen2.5-coder:7b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 138.87s)
+2026-11-24 14:32:20   [ETA: 02:21:37 | Elapsed: 03:56:02]
+2026-11-24 14:32:22 
+>>> GENERATOR: phi4:latest
+2026-11-24 14:35:33 [Case 106/168] GEN: phi4:latest | VAL: dolphin3:latest | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 190.94s)
+2026-11-24 14:35:33   [ETA: 02:19:56 | Elapsed: 03:59:15]
+2026-11-24 14:38:56 [Case 107/168] GEN: phi4:latest | VAL: dolphin3:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 200.32s)
+2026-11-24 14:38:56   [ETA: 02:18:19 | Elapsed: 04:02:38]
+2026-11-24 14:42:27 [Case 108/168] GEN: phi4:latest | VAL: dolphin3:latest | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 209.08s)
+2026-11-24 14:42:27   [ETA: 02:16:45 | Elapsed: 04:06:09]
+2026-11-24 14:46:23 [Case 109/168] GEN: phi4:latest | VAL: huihui_ai/qwen3-abliterated:8b | LENS: conciseness -> PASS | Score: 75 (Loops: 1, 233.24s)
+2026-11-24 14:46:23   [ETA: 02:15:21 | Elapsed: 04:10:05]
+2026-11-24 14:52:36 [Case 110/168] GEN: phi4:latest | VAL: huihui_ai/qwen3-abliterated:8b | LENS: technical -> PASS | Score: 92 (Loops: 1, 370.92s)
+2026-11-24 14:52:36   [ETA: 02:15:08 | Elapsed: 04:16:18]
+2026-11-24 14:56:42 [Case 111/168] GEN: phi4:latest | VAL: huihui_ai/qwen3-abliterated:8b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 243.43s)
+2026-11-24 14:56:42   [ETA: 02:13:43 | Elapsed: 04:20:24]
+2026-11-24 15:01:13 [Case 112/168] GEN: phi4:latest | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: conciseness -> PASS | Score: 90 (Loops: 2, 268.74s)
+2026-11-24 15:01:13   [ETA: 02:12:27 | Elapsed: 04:24:55]
+2026-11-24 15:05:05 [Case 113/168] GEN: phi4:latest | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 230.23s)
+2026-11-24 15:05:05   [ETA: 02:10:49 | Elapsed: 04:28:47]
+2026-11-24 15:08:50 [Case 114/168] GEN: phi4:latest | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 222.61s)
+2026-11-24 15:08:50   [ETA: 02:09:05 | Elapsed: 04:32:32]
+2026-11-24 15:11:54 [Case 115/168] GEN: phi4:latest | VAL: llama3.2:3b | LENS: conciseness -> PASS | Score: 80 (Loops: 1, 181.55s)
+2026-11-24 15:11:54   [ETA: 02:07:00 | Elapsed: 04:35:36]
+2026-11-24 15:15:00 [Case 116/168] GEN: phi4:latest | VAL: llama3.2:3b | LENS: technical -> PASS | Score: 92 (Loops: 1, 183.92s)
+2026-11-24 15:15:00   [ETA: 02:04:56 | Elapsed: 04:38:42]
+2026-11-24 15:18:07 [Case 117/168] GEN: phi4:latest | VAL: llama3.2:3b | LENS: objectivity -> PASS | Score: 92 (Loops: 1, 185.01s)
+2026-11-24 15:18:07   [ETA: 02:02:50 | Elapsed: 04:41:49]
+2026-11-24 15:21:55 [Case 118/168] GEN: phi4:latest | VAL: mistral-nemo:12b | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 225.91s)
+2026-11-24 15:21:55   [ETA: 02:01:01 | Elapsed: 04:45:37]
+2026-11-24 15:26:19 [Case 119/168] GEN: phi4:latest | VAL: mistral-nemo:12b | LENS: technical -> PASS | Score: 85 (Loops: 1, 262.1s)
+2026-11-24 15:26:19   [ETA: 01:59:25 | Elapsed: 04:50:01]
+2026-11-24 15:30:19 [Case 120/168] GEN: phi4:latest | VAL: mistral-nemo:12b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 236.96s)
+2026-11-24 15:30:19   [ETA: 01:57:36 | Elapsed: 04:54:01]
+2026-11-24 15:35:34 [Case 121/168] GEN: phi4:latest | VAL: qwen2.5-coder:14b | LENS: conciseness -> PASS | Score: 85 (Loops: 2, 313.3s)
+2026-11-24 15:35:34   [ETA: 01:56:14 | Elapsed: 04:59:16]
+2026-11-24 15:39:18 [Case 122/168] GEN: phi4:latest | VAL: qwen2.5-coder:14b | LENS: technical -> PASS | Score: 85 (Loops: 1, 221.54s)
+2026-11-24 15:39:18   [ETA: 01:54:14 | Elapsed: 05:03:00]
+2026-11-24 15:43:05 [Case 123/168] GEN: phi4:latest | VAL: qwen2.5-coder:14b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 224.12s)
+2026-11-24 15:43:05   [ETA: 01:52:14 | Elapsed: 05:06:47]
+2026-11-24 15:46:12 [Case 124/168] GEN: phi4:latest | VAL: qwen2.5-coder:7b | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 184.98s)
+2026-11-24 15:46:12   [ETA: 01:49:57 | Elapsed: 05:09:54]
+2026-11-24 15:49:24 [Case 125/168] GEN: phi4:latest | VAL: qwen2.5-coder:7b | LENS: technical -> PASS | Score: 85 (Loops: 1, 189.7s)
+2026-11-24 15:49:24   [ETA: 01:47:42 | Elapsed: 05:13:06]
+2026-11-24 15:52:36 [Case 126/168] GEN: phi4:latest | VAL: qwen2.5-coder:7b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 189.76s)
+2026-11-24 15:52:36   [ETA: 01:45:26 | Elapsed: 05:16:18]
+2026-11-24 15:52:38 
+>>> GENERATOR: qwen2.5-coder:14b
+2026-11-24 15:56:32 [Case 127/168] GEN: qwen2.5-coder:14b | VAL: dolphin3:latest | LENS: conciseness -> PASS | Score: 80 (Loops: 1, 233.22s)
+2026-11-24 15:56:32   [ETA: 01:43:22 | Elapsed: 05:20:14]
+2026-11-24 16:00:52 [Case 128/168] GEN: qwen2.5-coder:14b | VAL: dolphin3:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 258.23s)
+2026-11-24 16:00:52   [ETA: 01:41:25 | Elapsed: 05:24:34]
+2026-11-24 16:04:56 [Case 129/168] GEN: qwen2.5-coder:14b | VAL: dolphin3:latest | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 241.4s)
+2026-11-24 16:04:56   [ETA: 01:39:21 | Elapsed: 05:28:38]
+2026-11-24 16:11:29 [Case 130/168] GEN: qwen2.5-coder:14b | VAL: huihui_ai/qwen3-abliterated:8b | LENS: conciseness -> PASS | Score: 95 (Loops: 2, 390.74s)
+2026-11-24 16:11:29   [ETA: 01:37:58 | Elapsed: 05:35:11]
+2026-11-24 16:17:02 [Case 131/168] GEN: qwen2.5-coder:14b | VAL: huihui_ai/qwen3-abliterated:8b | LENS: technical -> PASS | Score: 85 (Loops: 1, 330.69s)
+2026-11-24 16:17:02   [ETA: 01:36:14 | Elapsed: 05:40:44]
+2026-11-24 16:22:09 [Case 132/168] GEN: qwen2.5-coder:14b | VAL: huihui_ai/qwen3-abliterated:8b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 304.88s)
+2026-11-24 16:22:09   [ETA: 01:34:19 | Elapsed: 05:45:51]
+2026-11-24 16:27:09 [Case 133/168] GEN: qwen2.5-coder:14b | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: conciseness -> PASS | Score: 90 (Loops: 2, 298.25s)
+2026-11-24 16:27:09   [ETA: 01:32:19 | Elapsed: 05:50:51]
+2026-11-24 16:31:53 [Case 134/168] GEN: qwen2.5-coder:14b | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 281.68s)
+2026-11-24 16:31:53   [ETA: 01:30:13 | Elapsed: 05:55:35]
+2026-11-24 16:36:22 [Case 135/168] GEN: qwen2.5-coder:14b | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 266.23s)
+2026-11-24 16:36:22   [ETA: 01:28:00 | Elapsed: 06:00:04]
+2026-11-24 16:40:57 [Case 136/168] GEN: qwen2.5-coder:14b | VAL: llama3.2:3b | LENS: conciseness -> PASS | Score: 80 (Loops: 2, 272.6s)
+2026-11-24 16:40:57   [ETA: 01:25:48 | Elapsed: 06:04:39]
+2026-11-24 16:44:50 [Case 137/168] GEN: qwen2.5-coder:14b | VAL: llama3.2:3b | LENS: technical -> PASS | Score: 92 (Loops: 1, 231.53s)
+2026-11-24 16:44:50   [ETA: 01:23:23 | Elapsed: 06:08:32]
+2026-11-24 16:48:44 [Case 138/168] GEN: qwen2.5-coder:14b | VAL: llama3.2:3b | LENS: objectivity -> PASS | Score: 92 (Loops: 1, 231.27s)
+2026-11-24 16:48:44   [ETA: 01:20:57 | Elapsed: 06:12:26]
+2026-11-24 16:52:51 [Case 139/168] GEN: qwen2.5-coder:14b | VAL: mistral-nemo:12b | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 245.4s)
+2026-11-24 16:52:51   [ETA: 01:18:33 | Elapsed: 06:16:33]
+2026-11-24 16:57:52 [Case 140/168] GEN: qwen2.5-coder:14b | VAL: mistral-nemo:12b | LENS: technical -> PASS | Score: 85 (Loops: 1, 298.85s)
+2026-11-24 16:57:52   [ETA: 01:16:18 | Elapsed: 06:21:34]
+2026-11-24 17:02:47 [Case 141/168] GEN: qwen2.5-coder:14b | VAL: mistral-nemo:12b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 291.8s)
+2026-11-24 17:02:47   [ETA: 01:14:00 | Elapsed: 06:26:29]
+2026-11-24 17:07:52 [Case 142/168] GEN: qwen2.5-coder:14b | VAL: phi4:latest | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 303.48s)
+2026-11-24 17:07:52   [ETA: 01:11:41 | Elapsed: 06:31:34]
+2026-11-24 17:12:56 [Case 143/168] GEN: qwen2.5-coder:14b | VAL: phi4:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 301.02s)
+2026-11-24 17:12:56   [ETA: 01:09:20 | Elapsed: 06:36:38]
+2026-11-24 17:17:37 [Case 144/168] GEN: qwen2.5-coder:14b | VAL: phi4:latest | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 278.79s)
+2026-11-24 17:17:37   [ETA: 01:06:53 | Elapsed: 06:41:19]
+2026-11-24 17:21:29 [Case 145/168] GEN: qwen2.5-coder:14b | VAL: qwen2.5-coder:7b | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 228.96s)
+2026-11-24 17:21:29   [ETA: 01:04:16 | Elapsed: 06:45:11]
+2026-11-24 17:25:31 [Case 146/168] GEN: qwen2.5-coder:14b | VAL: qwen2.5-coder:7b | LENS: technical -> PASS | Score: 85 (Loops: 1, 239.85s)
+2026-11-24 17:25:31   [ETA: 01:01:39 | Elapsed: 06:49:13]
+2026-11-24 17:29:26 [Case 147/168] GEN: qwen2.5-coder:14b | VAL: qwen2.5-coder:7b | LENS: objectivity -> PASS | Score: 75 (Loops: 1, 233.19s)
+2026-11-24 17:29:26   [ETA: 00:59:01 | Elapsed: 06:53:08]
+2026-11-24 17:29:28 
+>>> GENERATOR: qwen2.5-coder:7b
+2026-11-24 17:30:14 [Case 148/168] GEN: qwen2.5-coder:7b | VAL: dolphin3:latest | LENS: conciseness -> PASS | Score: 75 (Loops: 1, 46.12s)
+2026-11-24 17:30:14   [ETA: 00:55:56 | Elapsed: 06:53:56]
+2026-11-24 17:31:12 [Case 149/168] GEN: qwen2.5-coder:7b | VAL: dolphin3:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 55.87s)
+2026-11-24 17:31:12   [ETA: 00:52:54 | Elapsed: 06:54:54]
+2026-11-24 17:32:25 [Case 150/168] GEN: qwen2.5-coder:7b | VAL: dolphin3:latest | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 70.19s)
+2026-11-24 17:32:25   [ETA: 00:49:56 | Elapsed: 06:56:07]
+2026-11-24 17:34:54 [Case 151/168] GEN: qwen2.5-coder:7b | VAL: huihui_ai/qwen3-abliterated:8b | LENS: conciseness -> PASS | Score: 100 (Loops: 2, 146.86s)
+2026-11-24 17:34:54   [ETA: 00:47:07 | Elapsed: 06:58:36]
+2026-11-24 17:36:42 [Case 152/168] GEN: qwen2.5-coder:7b | VAL: huihui_ai/qwen3-abliterated:8b | LENS: technical -> PASS | Score: 75 (Loops: 1, 105.94s)
+2026-11-24 17:36:42   [ETA: 00:44:15 | Elapsed: 07:00:24]
+2026-11-24 17:38:45 [Case 153/168] GEN: qwen2.5-coder:7b | VAL: huihui_ai/qwen3-abliterated:8b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 120.34s)
+2026-11-24 17:38:45   [ETA: 00:41:25 | Elapsed: 07:02:27]
+2026-11-24 17:40:18 [Case 154/168] GEN: qwen2.5-coder:7b | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: conciseness -> PASS | Score: 90 (Loops: 2, 91.35s)
+2026-11-24 17:40:18   [ETA: 00:38:32 | Elapsed: 07:04:00]
+2026-11-24 17:41:54 [Case 155/168] GEN: qwen2.5-coder:7b | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 93.41s)
+2026-11-24 17:41:54   [ETA: 00:35:41 | Elapsed: 07:05:36]
+2026-11-24 17:43:22 [Case 156/168] GEN: qwen2.5-coder:7b | VAL: jaahas/gemma-2-9b-it-abliterated:latest | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 85.33s)
+2026-11-24 17:43:22   [ETA: 00:32:51 | Elapsed: 07:07:04]
+2026-11-24 17:44:07 [Case 157/168] GEN: qwen2.5-coder:7b | VAL: llama3.2:3b | LENS: conciseness -> PASS | Score: 80 (Loops: 1, 42.23s)
+2026-11-24 17:44:07   [ETA: 00:29:58 | Elapsed: 07:07:49]
+2026-11-24 17:44:53 [Case 158/168] GEN: qwen2.5-coder:7b | VAL: llama3.2:3b | LENS: technical -> PASS | Score: 92 (Loops: 1, 44.16s)
+2026-11-24 17:44:53   [ETA: 00:27:07 | Elapsed: 07:08:35]
+2026-11-24 17:45:40 [Case 159/168] GEN: qwen2.5-coder:7b | VAL: llama3.2:3b | LENS: objectivity -> PASS | Score: 92 (Loops: 1, 45.04s)
+2026-11-24 17:45:40   [ETA: 00:24:18 | Elapsed: 07:09:22]
+2026-11-24 17:47:28 [Case 160/168] GEN: qwen2.5-coder:7b | VAL: mistral-nemo:12b | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 105.97s)
+2026-11-24 17:47:28   [ETA: 00:21:33 | Elapsed: 07:11:10]
+2026-11-24 17:49:16 [Case 161/168] GEN: qwen2.5-coder:7b | VAL: mistral-nemo:12b | LENS: technical -> PASS | Score: 85 (Loops: 1, 105.47s)
+2026-11-24 17:49:16   [ETA: 00:18:49 | Elapsed: 07:12:58]
+2026-11-24 17:53:05 [Case 162/168] GEN: qwen2.5-coder:7b | VAL: mistral-nemo:12b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 226.77s)
+2026-11-24 17:53:05   [ETA: 00:16:10 | Elapsed: 07:16:47]
+2026-11-24 17:55:31 [Case 163/168] GEN: qwen2.5-coder:7b | VAL: phi4:latest | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 143.53s)
+2026-11-24 17:55:31   [ETA: 00:13:28 | Elapsed: 07:19:13]
+2026-11-24 17:57:18 [Case 164/168] GEN: qwen2.5-coder:7b | VAL: phi4:latest | LENS: technical -> PASS | Score: 85 (Loops: 1, 103.77s)
+2026-11-24 17:57:18   [ETA: 00:10:45 | Elapsed: 07:21:00]
+2026-11-24 17:58:56 [Case 165/168] GEN: qwen2.5-coder:7b | VAL: phi4:latest | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 95.46s)
+2026-11-24 17:58:56   [ETA: 00:08:02 | Elapsed: 07:22:38]
+2026-11-24 18:00:04 [Case 166/168] GEN: qwen2.5-coder:7b | VAL: qwen2.5-coder:14b | LENS: conciseness -> PASS | Score: 85 (Loops: 1, 65.67s)
+2026-11-24 18:00:04   [ETA: 00:05:20 | Elapsed: 07:23:46]
+2026-11-24 18:01:26 [Case 167/168] GEN: qwen2.5-coder:7b | VAL: qwen2.5-coder:14b | LENS: technical -> PASS | Score: 85 (Loops: 1, 79.4s)
+2026-11-24 18:01:26   [ETA: 00:02:39 | Elapsed: 07:25:08]
+2026-11-24 18:02:47 [Case 168/168] GEN: qwen2.5-coder:7b | VAL: qwen2.5-coder:14b | LENS: objectivity -> PASS | Score: 85 (Loops: 1, 78.3s)
+2026-11-24 18:02:49 ------------------------------------------------------------
+2026-11-24 18:02:49 === BENCHMARK COMPLETE ===
+2026-11-24 18:02:49 Cases processed: 168 (skipped: 0, total: 168)
+2026-11-24 18:02:49 PASS: 168 | FAIL: 0 | ERROR: 0
+2026-11-24 18:02:49 Average score (parsed): 86.3 over 168 scored runs
+2026-11-24 18:02:49 Total duration: 07:26:31
+2026-11-24 18:02:49 Log file: C:\reinstall_of_xampp\htdocs\ai_engine/benchmark.log
+2026-11-24 18:02:49 ------------------------------------------------------------
+2026-11-24 18:02:49 Final VRAM purge...
